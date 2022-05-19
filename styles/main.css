@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 3px;
+    background-color: whitesmoke;
+  }
+
+body {
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* .mainTitle {
+    display: block;
+    color: darkslategray;
+    text-align: center;
+    font-size: xx-large;
+} */
+
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.mainOptions a {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 22px -6px #141414;
+    background-color: silver;
+    flex-direction: column;
+    font-size: medium;
+    text-decoration: none;
+    padding: 30px;    
+}
+
+.mainOptions img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    align-self: center;
+    background-color: silver;
+  }
+
+.mainOptions p {
+    color: black;
+    align-self: center;
+    font-size: medium;
+    background-color: silver;
+}
+
+.mainOptions:hover {
+    transform: scale(1.1);
+  }
+
+.mainOptions:active {
+    transform: scale(1);
+  }
+
+
+.nav-bar{
+    background-color: silver;
+    display: flex;
+    gap: 800px;
+}
+
+.itemNav-bar{
+    background-color: silver;
+    display: flex;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.itemNav-bar img{
+    width: 50px;
+    height: 50px;
+    background-color: silver;
+}
+
+.itemNav-bar a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    background-color: silver;
+}
+
+.itemNav-bar h3{
+    background-color: silver;
+}
+
+
+  button {
+      background-color: silver;
+      border: none;
+      padding: 10px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 5px;
+      background-color: darkgrey;
+  }
+
+button:hover {
+    background-color: darkslategray
+  }
+
+button:active {
+    transform: scale(1);
+  }
+
+  
+  .figuresContainer {
+      display: flex;
+      height: 400px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      
+  }
+
+  .figuresItem {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      height: 300px;
+      padding: 30px;
+      align-content: center;
+      justify-content: center;  
+  }
+
+  .figuresItem img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    align-self: center;    
+}
+
+  .h2Figures {
+      align-self: center;
+      text-align: center;
+  }
+
+  .divFigures {
+      align-self: center;
+      text-align: center;
+  }
+
+  #InputValue {
+      width: 500px;
+      height: 50px;
+  }
+
+ .formulario {
+    display: flex;
+    justify-content: center;
+  }

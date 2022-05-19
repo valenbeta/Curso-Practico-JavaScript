@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadística</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="itemNav-bar">
+                <img src="images/val.png" alt="">
+                <h3>Por: Valentina Betancur</h3>
+            </div>
+            <div  class="itemNav-bar">
+                <a href="index.html">Inicio</a>
+                <a href="contacto.html">Contáctanos</a>
+            </div>
+        </nav>
+        
+        <h1>Media, Mediana y Moda</h1>
+        <h2>Podrá calcular la media, mediana y moda de un conjunto de datos.</h2>
+        <p>A continuación, ingrese los valores separados por espacios:</p>
+        <p>*Marcar valores decimales con punto.</p>
+    </header>
+    
+    <form>
+        <section>
+            <label for="InputValue"></label>
+            <input id="InputValue" type="text">
+            <button type="button" onclick="mediaOnClick()">Media</button>
+            <button type="button" onclick="medianaOnClick()">Mediana</button>
+            <button type="button" onclick="modaOnClick()">Moda</button>
+            <p id="Resultado"></p>
+        </section>
+    </form>
+    
+</body>
+<script src="scripts/promedio.js"></script>
+</html>
