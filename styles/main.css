@@ -156,6 +156,40 @@ button:active {
       text-align: center;
   }
 
+
+  .promedioContainer {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+  }
+
+  #estadistica {
+      width: 120px;
+  }
+
+.descuentoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#descuento {
+    width: 120px;
+}
+
+#InputDiscount{
+    width: 100px;
+}
+
+#InputPrice{
+    width: 150px;
+}
+
+
   #InputValue {
       width: 500px;
       height: 50px;
@@ -165,3 +199,4 @@ button:active {
     display: flex;
     justify-content: center;
   }
+

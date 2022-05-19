@@ -21,20 +21,31 @@
                 <a href="contacto.html">Contáctanos</a>
             </div>
         </nav>
-        
+
         <h1>Media, Mediana y Moda</h1>
-        <h2>Podrá calcular la media, mediana y moda de un conjunto de datos.</h2>
-        <p>A continuación, ingrese los valores separados por espacios:</p>
-        <p>*Marcar valores decimales con punto.</p>
+        
     </header>
     
     <form>
-        <section>
-            <label for="InputValue"></label>
-            <input id="InputValue" type="text">
-            <button type="button" onclick="mediaOnClick()">Media</button>
-            <button type="button" onclick="medianaOnClick()">Mediana</button>
-            <button type="button" onclick="modaOnClick()">Moda</button>
+        <section class="promedioContainer">
+            <div>
+                <h2>Podrá calcular la media, mediana y moda de un conjunto de datos.</h2>
+                <p>A continuación, ingrese los valores separados por espacios:</p>
+                <p>*Marcar valores decimales con punto.</p>
+                <img id="estadistica" src="images/estadistica2.png" alt="">
+            </div>
+            
+            <div>
+                <label for="InputValue"></label>
+                <input id="InputValue" type="text">
+            </div>
+            
+            <div>
+                <button type="button" onclick="mediaOnClick()">Media</button>
+                <button type="button" onclick="medianaOnClick()">Mediana</button>
+                <button type="button" onclick="modaOnClick()">Moda</button>
+            </div>
+            
             <p id="Resultado"></p>
         </section>
     </form>
